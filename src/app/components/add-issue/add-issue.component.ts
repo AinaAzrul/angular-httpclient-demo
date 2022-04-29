@@ -32,5 +32,5 @@ export class AddIssueComponent implements OnInit {
       console.log('Issue added!');
       this.ngZone.run(() => this.router.navigateByUrl('/issues-list'));
     });
-  }
+  }//test
 } 
